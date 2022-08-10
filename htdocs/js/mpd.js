@@ -92,7 +92,8 @@ var app = $.sammy(function () {
             });
         }
 
-        $('#panel-heading').text('Browse database: ' + browsepath);
+        $('#panel-heading').text('Browse database');
+        $('#panel-heading-info').empty();
         var path_array = browsepath.split('/');
         var full_path = '';
         $.each(path_array, function (index, chunk) {
