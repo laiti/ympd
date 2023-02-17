@@ -909,6 +909,7 @@ function webSocketConnect() {
                             obj.data.artist,
                             obj.data.album
                         );
+                    /*
                     else
                         $('.top-right')
                             .notify({
@@ -916,6 +917,7 @@ function webSocketConnect() {
                                 type: 'info',
                             })
                             .show();
+                    */
                     break;
                 case 'mpdhost':
                     $('#mpdhost').val(obj.data.host);
