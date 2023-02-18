@@ -903,21 +903,13 @@ function webSocketConnect() {
                         notification += obj.data.album + '<br />';
                     }
 
-                    if ($.cookie('notification') === 'true')
+                    if ($.cookie('notification') === 'true') {
                         songNotify(
                             obj.data.title,
                             obj.data.artist,
                             obj.data.album
                         );
-                    /*
-                    else
-                        $('.top-right')
-                            .notify({
-                                message: { html: notification },
-                                type: 'info',
-                            })
-                            .show();
-                    */
+                    }
                     break;
                 case 'mpdhost':
                     $('#mpdhost').val(obj.data.host);
