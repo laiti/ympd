@@ -915,6 +915,8 @@ function webSocketConnect() {
                     $('#mpdhost').val(obj.data.host);
                     setLocalStream(obj.data.host);
                     $('#mpdport').val(obj.data.port);
+                    $('#mpdinfo').text(obj.data.host + ':' + obj.data.port)
+                    $('#wifiinfo').text('SSID: HARRIER-V<br />PASS: foobar')
                     if (obj.data.passwort_set)
                         $('#mpd_password_set').removeClass('hide');
                     break;
