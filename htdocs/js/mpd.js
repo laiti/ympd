@@ -892,7 +892,7 @@ function webSocketConnect() {
 
                     $('#currenttrack').text(' ' + obj.data.title);
                     var notification =
-                        '<strong><h4>HALOJATA</h4></strong>';
+                        '<strong><h4>' + obj.data.title + '</h4></strong>';
 
                     if (obj.data.artist) {
                         $('#artist').text(obj.data.artist);
@@ -909,6 +909,7 @@ function webSocketConnect() {
                             obj.data.artist,
                             obj.data.album
                         );
+                    /*
                     else
                         $('.top-right')
                             .notify({
@@ -916,6 +917,7 @@ function webSocketConnect() {
                                 type: 'info',
                             })
                             .show();
+                    */
                     break;
                 case 'mpdhost':
                     $('#mpdhost').val(obj.data.host);
