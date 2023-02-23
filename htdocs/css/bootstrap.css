@@ -2343,7 +2343,17 @@ fieldset[disabled] .btn-link:focus {
   width: 100%;
   padding-right: 0;
   padding-left: 0;
-  padding-bottom: 24px;
+  padding-bottom: 0px;
+  border: 1px solid;
+  border-color: #428bca;
+  border-radius: 4px;
+}
+.btn-block-right {
+  display: block;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 45px;
   border: 1px solid;
   border-color: #428bca;
   border-radius: 4px;
@@ -4785,16 +4795,16 @@ a.list-group-item-danger.active:focus {
   padding-left: 15px;
   padding-top: 5px;
   padding-right: 15px;
-  padding-bottom: 40px;
+  padding-bottom: 63px;
 }
 .panel-body-middle {
   padding-left: 15px;
-  padding-top: 5px;
+  padding-top: 0px;
   padding-right: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
 }
 .panel-body-right {
-  padding-top: 5px;
+  padding-top: 0px;
   padding-right: 0px;
   padding-left: 0px;
   padding-bottom: 15px;
