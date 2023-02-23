@@ -28,7 +28,7 @@
   <body>
     <div class="container starter-template">
       <div class="row">
-        <div class="col-md-10 col-xs-12">
+        <div class="col-md-75 col-xs-8">
           <div class="notifications top-right"></div>
 
           <div class="panel panel-primary sticky">
@@ -51,10 +51,10 @@
                     <span class="glyphicon glyphicon-heart"></span></button
                 ></span>
               </h1>
-              <h4>
+              <h2>
                 <span id="artist" class="text"></span>
                 <span id="album" class="text pull-right"></span>
-              </h4>
+              </h2>
               <p id="counter" class="text pull-right">&nbsp;&nbsp;</p>
 
               <div id="progressbar"></div>
@@ -69,9 +69,25 @@
           </ul>
         </div>
         <!-- /.col-md-10 -->
-        <div class="col-md-2 col-xs-12 sticky">
-          <p class="mpdinfo">mpd</p>
-          <p class="wifiinfo">wifi</p>
+        <div class="col-md-2">
+          <div class="panel-body">
+            <div class="btn-group-vertical btn-block btn-group-lg">
+              <div class="btn-lg">
+                <h1>MPD</h1>
+                <h3><span id="mpdinfo">mpd.hostn.fi<br/ >mpdpassword</span></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="panel-body-right">
+            <div class="btn-group-vertical btn-block btn-group-lg">
+              <div class="btn-lg">
+                <h1>WIFI</h1>
+                <h3><span id="wifiinfo">WIFI-SSID<br />wifipassword</span></h3>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- /.col-md-2 -->
       </div>
