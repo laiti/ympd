@@ -4547,6 +4547,7 @@ a.thumbnail.active {
 .progress {
   height: 20px;
   margin-bottom: 20px;
+  width: 730px;
   overflow: hidden;
   background-color: #191b1f;
   border-radius: 4px;
@@ -4796,7 +4797,7 @@ a.list-group-item-danger.active:focus {
   padding-left: 15px;
   padding-top: 5px;
   padding-right: 15px;
-  padding-bottom: 63px;
+  padding-bottom: 18px;
 }
 .panel-body-middle {
   padding-left: 15px;
@@ -5692,6 +5693,12 @@ button.close {
 }
 .pull-right {
   float: right !important;
+  text-overflow: ellipsis;
+  text-align: right;
+  overflow: hidden;
+  width: 500px;
+  height: 1.7em;
+  white-space: nowrap;
 }
 .pull-left {
   float: left !important;
