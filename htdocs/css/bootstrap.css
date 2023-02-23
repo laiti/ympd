@@ -4784,13 +4784,13 @@ a.list-group-item-danger.active:focus {
 .panel-body {
   padding-left: 15px;
   padding-top: 5px;
-  padding-right: 0px;
-  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
 }
 .panel-body-right {
   padding-top: 5px;
   padding-right: 0px;
-  padding-left: 15px;
+  padding-left: 0px;
   padding-bottom: 15px;
 }
 .panel > .list-group {
