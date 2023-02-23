@@ -8,6 +8,11 @@ http://www.ympd.org
 
 ![ScreenShot](http://www.ympd.org/assets/ympd_github.png)
 
+## Customizations
+This is a heavily edited version of the ![YMPD web client](http://www.ympd.org/) for my dashboard and
+probably of no use for anyone else. Go see the ![SuperBFG7](https://github.com/SuperBFG7/ympd) version
+for more original version of this.s
+
 ## Dependencies
 
 -   libmpdclient 2: http://www.musicpd.org/libs/libmpdclient/
