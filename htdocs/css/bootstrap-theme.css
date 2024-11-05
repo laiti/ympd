@@ -246,7 +246,7 @@
 }
 .progress {
   background-image: -webkit-linear-gradient(top, #2b3c2e 0%, #305d44 100%);
-  background-image:         linear-gradient(to bottom, 181b1f 0%, #281b1f 100%);
+  background-image:         linear-gradient(to bottom, #111217 0%, #281b1f 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);
   background-repeat: repeat-x;
 }
